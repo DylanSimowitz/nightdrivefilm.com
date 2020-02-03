@@ -1,0 +1,43 @@
+<div class="bg-black">
+  <div
+    class="bg-center cover flex items-end"
+    style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), url('{{.image}}'); height: 600px;"
+    id="cast"
+  >
+    <div class="mw7 center ph3 mt-auto">
+      <div class="db mb3">
+        <div class="mw7 relative bg-fix-primary mb2">
+          <h1 class="f2 f1-l b di lh-title white mw6">
+            <!-- About -->
+          </h1>
+        </div>
+        <div class="mw7 relative bg-fix-primary">
+          {{ if .subtitle }}
+          <p class="b f5 di lh-title mb3 grey-2 mw6">
+            {{.subtitle}}
+          </p>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mw9 center ph3-ns">
+    <div class="cf ph2-ns">
+      {{ range .members }}
+      <div class="fl w-100 w-50-ns pa2 reveal">
+        <div class="white mw-8 center ph6">
+          <h3 class="f3 f2-l">
+            {{.name}}
+          </h3>
+          <img src="{{ .image }}" alt="{{ .name }}" />
+          <ul>
+            {{ range .credits }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

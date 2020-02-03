@@ -1,0 +1,16 @@
+<div class="mw9 center ph3-ns">
+  <div class="cf ph2-ns">
+    {{ range $heading, $text := . }}
+    <div class="fl w-100 w-50-ns pa2 reveal">
+      <div class="white mw-8 center ph6">
+        <h3 class="f3 f2-l">
+          {{ humanize $heading}}
+        </h3>
+        <p>
+          {{$text}}
+        </p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
