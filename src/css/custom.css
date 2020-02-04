@@ -1,3 +1,30 @@
-.reveal {
+.reveal,
+.reveal-credit {
   visibility: hidden;
+}
+
+.creditblock {
+  min-width: 40%;
+}
+.credits {
+  min-width: 40%;
+  top: 0;
+  animation: 40s credits linear infinite;
+}
+
+@keyframes credits {
+  0% {
+    transform: translateY(35%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.mh400 {
+  max-height: 400px;
+}
+
+.mw360 {
+  min-width: 360px;
 }

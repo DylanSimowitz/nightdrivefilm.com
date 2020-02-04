@@ -1,0 +1,22 @@
+<div
+  class="bg-center cover flex items-center ph5"
+  style="background-image: linear-gradient(to right, rgba(0,0,0,1) 20%, rgba(0,0,0,0)), url('{{.image}}'); height: 600px;"
+  id="{{ .section }}"
+>
+  <div class="mw7 ph3 mt-auto">
+    <div class="db mb3">
+      <div class="mw7 relative bg-fix-primary mb2">
+        <h1 class="f2 f1-l b di lh-title white mw6 section-heading">
+          {{ humanize .section }}
+        </h1>
+      </div>
+      <div class="mw7 relative bg-fix-primary">
+        {{ if .subtitle }}
+        <p class="b f5 di lh-title mb3 grey-2 mw6">
+          {{.subtitle}}
+        </p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>

@@ -34,7 +34,7 @@ about:
       I want to connect with the audience on a visceral level in ways in which words alone
       cannot accomplish.
 cast:
-  image: img/look_left.png
+  image: img/cast.png
   members:
     - name: Kory Karam
       image: img/kory.png
@@ -49,4 +49,103 @@ cast:
         - La Piscina (Film)
         - The Sunnyfield Kids (Film)
         - Chop Chop (Film)
+credits:
+  image: img/credits.png
+  bts:
+    - img/bts_passenger.jpg
+    - img/bts_tree.jpg
+    - img/bts_passenger2.jpg
+    - img/bts_passenger3.jpg
+    - img/bts_action.jpg
+    - img/bts_driver.jpg
+  roles:
+    - role: Director
+      members:
+        - Chris Morvant
+    - role: Writer
+      members:
+        - Chris Morvant
+    - role: Editor
+      members:
+        - Chris Morvant
+    - role: Sound Designer
+      members:
+        - Chris Morvant
+    - role: Producer
+      members:
+        - Julian Chisholm
+    - role: Music
+      members:
+        - Noah Ehler
+    - role: Principal Cast
+      members:
+        - Kory Karam
+        - Mikael Mattsson
+    - role: Directory of Photography
+      members:
+        - Tim Le
+    - role: Colorist
+      members:
+        - Tim Le
+    - role: 1st AC
+      members:
+        - Spencer Wood
+    - role: BTS
+      members:
+        - Spencer Wood
+    - role: 2nd AC
+      members:
+        - Jake Bowren
+    - role: Production Designer
+      members:
+        - Tania Peredo
+    - role: Costume Designer
+      members:
+        - Connor Fitzgerald
+    - role: 1st AD
+      members:
+        - Joeli Schwartz
+    - role: 2nd AD
+      members:
+        - Michael Stevenson
+    - role: Script Supervisor
+      members:
+        - Mona Ebrahim
+    - role: Set PA
+      members:
+        - Dakota Sedger
+        - Justin Sivilla
+        - Jacob Shapiro
+    - role: Gaffer
+      members:
+        - Donavyn Suffel
+    - role: Best Boy Electric
+      members:
+        - Byron Morse
+    - role: Key Grip
+      members:
+        - Brody Bogert
+    - role: Best Boy Grip
+      members:
+        - Hasan Maqsood
+    - role: Grip
+      members:
+        - Solomon Rurup
+        - Vasiliy Bondarchuk
+    - role: Sound Mixer
+      members:
+        - Milad Salari
+    - role: Boom Operator
+      members:
+        - Jacob Woldridge
+    - role: Key Makeup Artist
+      members:
+        - Ash Rodriguez
+    - role: Makeup Artist Assistant
+      members:
+        - Natalie Cooper
+        - Megan Singer
+    - role: Driver
+      members:
+        - Alex Harris
 ---

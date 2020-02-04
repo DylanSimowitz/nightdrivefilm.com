@@ -1,25 +1,5 @@
-<div class="bg-black">
-  <div
-    class="bg-center cover flex items-end"
-    style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), url('{{.image}}'); height: 600px;"
-    id="about"
-  >
-    <div class="mw7 center ph3 mt-auto">
-      <div class="db mb3">
-        <div class="mw7 relative bg-fix-primary mb2">
-          <h1 class="f2 f1-l b di lh-title white mw6">
-            <!-- About -->
-          </h1>
-        </div>
-        <div class="mw7 relative bg-fix-primary">
-          {{ if .subtitle }}
-          <p class="b f5 di lh-title mb3 grey-2 mw6">
-            {{.subtitle}}
-          </p>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="bg-black" id="about">
+  {{ partial "section-header" (dict "image" .image "section" "About") .}}
   {{ partial "2-grid" .content }}
 </div>
+
