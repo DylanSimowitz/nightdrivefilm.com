@@ -28,3 +28,22 @@
 .mw360 {
   min-width: 360px;
 }
+
+.f-subheadline {
+  font-size: 4rem;
+}
+
+.section-header {
+  padding: 20% 0;
+  max-height: 600px;
+}
+
+@media (--breakpoint-not-small) {
+  .mw360-ns {
+    min-width: 360px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

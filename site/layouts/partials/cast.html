@@ -3,8 +3,10 @@
   <div class="mw9 center pv5 ph3-ns">
     <div class="flex flex-wrap ph2-ns">
       {{ range .members }}
-      <div class="pa4 white mw-8 ph6l flex center">
-        <div class="mr4 mw360">
+      <div
+        class="pa4 white mw-8 ph6l flex flex-column-reverse flex-row-ns center"
+      >
+        <div class="mr4 mw360-ns">
           <h3 class="primary f3 f2-l">
             {{.name}}
           </h3>
@@ -14,7 +16,9 @@
             {{ end }}
           </ul>
         </div>
-        <img src="{{ .image }}" alt="{{ .name }}" />
+        <div>
+          <img src="{{ .image }}" alt="{{ .name }}" />
+        </div>
       </div>
       {{ end }}
     </div>

@@ -1,21 +1,28 @@
 <div
-  class="pv7 ph2 ph6l bg-center cover"
+  class="ph2 ph6l bg-center cover"
   style="background-image: url('{{.imageUrl}}')"
 >
-  <div class="mw7 center ph3">
-    <div class="db mb3">
-      <div class="mw7 relative bg-fix-primary mb2">
-        <h1 class="f1 f-headline-l b di lh-title primary mw6 reveal">
-          {{.title}}
-        </h1>
-      </div>
-      <div class="mw7 relative bg-fix-primary">
-        {{ if .subtitle }}
-        <p class="b f3 f2-l di lh-title mb3 grey-2 mw6 reveal">
-          {{.subtitle}}
-        </p>
-        {{ end }}
+  <div class="pv6">
+    <div class="mw7 center ph3">
+      <div class="db mb3">
+        <div class="mw7 relative bg-fix-primary mb2">
+          <h1
+            class="f-subheadline f-headline-l b di lh-title primary mw6 reveal"
+          >
+            {{.title}}
+          </h1>
+        </div>
+        <div class="mw7 relative bg-fix-primary">
+          {{ if .subtitle }}
+          <p class="b f3 f2-l di lh-title mb3 grey-2 mw6 reveal">
+            {{.subtitle}}
+          </p>
+          {{ end }}
+        </div>
       </div>
     </div>
+  </div>
+  <div class="tc white">
+    <a href="#trailer" class="no-underline ba pv1 ph3 mb4 dib f4">Trailer</a>
   </div>
 </div>

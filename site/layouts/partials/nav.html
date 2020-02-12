@@ -1,12 +1,18 @@
 <nav
-  class="overflow-x-scroll overflow-x-visible-ns flex justify-end items-center center absolute left-0 right-0"
+  class="overflow-x-scroll overflow-x-visible-ns flex justify-end items-start center absolute absolute-fill"
 >
   <!-- Primary Nav -->
-  <ul class="flex b grey-2">
-    <li><a href="#trailer" class="pa3 no-underline db">Trailer</a></li>
-    <li><a href="#about" class="pa3 no-underline db">About</a></li>
-    <li><a href="#cast" class="pa3 no-underline db">Cast</a></li>
-    <li><a href="#crew" class="pa3 no-underline db">Crew</a></li>
-    <li><a href="#credits" class="pa3 no-underline db">Credits</a></li>
+  <ul
+    class="flex-column absolute static-ns absolute-fill flex-row-ns b grey-2 bg-black bg-none-ns z-4 items-center pt6 pt0-ns flex dn-important flex-ns-important"
+    id="menu"
+  >
+    <li><a href="#trailer" class="pa3 pb4 no-underline db">Trailer</a></li>
+    <li><a href="#about" class="pa3 pb4 no-underline db">About</a></li>
+    <li><a href="#cast" class="pa3 pb4 no-underline db">Cast</a></li>
+    <li><a href="#crew" class="pa3 pb4 no-underline db">Crew</a></li>
+    <li><a href="#credits" class="pa3 pb4 no-underline db">Credits</a></li>
   </ul>
+  <div class="dn-ns z-5 pa2" id="menu-button">
+    {{ partial "icon" (dict "svg" "icons-menu") }}
+  </div>
 </nav>
