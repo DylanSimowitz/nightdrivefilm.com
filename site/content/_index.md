@@ -23,14 +23,14 @@ about:
 cast:
   image: 'https://ucarecdn.com/dc09eac1-8446-40bb-9b91-a41122c4867b/'
   members:
-    - image: img/kory.png
+    - image: 'https://ucarecdn.com/ad1c451c-12c8-4522-8c0c-3eb292ab7050/'
       credits:
         - Tabloid (TV)
         - Midnight Anthology (TV)
         - Joanne and Khadi (TV)
         - Valley Sensation (TV)
       name: Kory Karam
-    - image: img/mikael.png
+    - image: 'https://ucarecdn.com/9d9b03b4-fae8-4ec4-888e-855b4be55677/'
       credits:
         - La Piscina (Film)
         - The Sunnyfield Kids (Film)
