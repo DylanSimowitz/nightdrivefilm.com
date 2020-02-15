@@ -43,8 +43,8 @@ collections: # A list of collections the CMS should be able to edit
                 {label: Caption, name: caption, widget: string},
                 {label: Image, name: image, widget: image}
               ]},
-                {label: Roles, name: roles, widget: list, fields: [
-                  {label: Role, name: role, widget: string},
-                  {label: Members, name: members, widget: list}
-                ]}
+              {label: Roles, name: roles, widget: list, fields: [
+                {label: Role, name: role, widget: string},
+                {label: Members, name: members, widget: list}
+              ]}
             ]}

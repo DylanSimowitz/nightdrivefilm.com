@@ -58,3 +58,7 @@ html {
 .pointer-events-auto {
   pointer-events: auto;
 }
+
+.hidden {
+  visibility: hidden;
+}
