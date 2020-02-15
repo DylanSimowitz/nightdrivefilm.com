@@ -3,6 +3,10 @@ backend:
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
+media_library:
+  name: uploadcare
+  config:
+    publicKey: 19f5b0fb7c66d5c433cf
 
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
