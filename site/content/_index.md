@@ -39,15 +39,15 @@ cast:
 credits:
   bts:
     - caption: Cory
-      image: img/bts_passenger.jpg
+      image: 'https://ucarecdn.com/4167420e-bf66-42a2-95f0-17d43b26110e/'
     - caption: Production
-      image: img/bts_tree.jpg
+      image: 'https://ucarecdn.com/d83a24dc-7392-4127-91b9-48572be9ae99/'
     - caption: Cory
-      image: img/bts_passenger2.jpg
+      image: 'https://ucarecdn.com/2ee2c7c7-ab96-468b-86ea-96ce31589df2/'
     - caption: Cory
-      image: img/bts_passenger3.jpg
+      image: 'https://ucarecdn.com/a92da21b-5931-4e6c-a587-1f32a1b798e7/'
     - caption: Cory
-      image: img/bts_action.jpg
+      image: 'https://ucarecdn.com/bd46e448-917b-449f-a12d-00dd93b18826/'
   image: 'https://ucarecdn.com/0480079e-4096-428c-9a14-b3067c66eeea/'
   roles:
     - members:
