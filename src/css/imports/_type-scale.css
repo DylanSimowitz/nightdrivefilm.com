@@ -5,6 +5,10 @@
 .f5 { font-size: var(--spacing-medium); }
 .f6 { font-size: .875rem; }
 
+.f-subheadline {
+  font-size: 5rem;
+}
+
 @media (--breakpoint-not-small) {
   .f-6-ns,
   .f-headline-ns { font-size: 6rem; }

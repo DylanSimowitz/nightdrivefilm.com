@@ -52,12 +52,18 @@ cast:
 credits:
   image: img/credits.png
   bts:
-    - img/bts_passenger.jpg
-    - img/bts_tree.jpg
-    - img/bts_passenger2.jpg
-    - img/bts_passenger3.jpg
-    - img/bts_action.jpg
-    - img/bts_driver.jpg
+    - caption: Cory
+      image: img/bts_passenger.jpg
+    - caption: Production
+      image: img/bts_tree.jpg
+    - caption: Cory
+      image: img/bts_passenger2.jpg
+    - caption: Cory
+      image: img/bts_passenger3.jpg
+    - caption: Cory
+      image: img/bts_action.jpg
+    # - caption: Cory
+    #   image: img/bts_driver.jpg
   roles:
     - role: Director
       members:

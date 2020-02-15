@@ -1,9 +1,8 @@
 <div class="bg-black" id="credits">
   {{ partial "section-header" (dict "image" .image "section" "Credits") .Params }}
-  <div class="mw9 center pv5 ph3-ns relative overflow-hidden flex">
-    <div class="creditblock"></div>
-    <div class="credits absolute">
-      <div class="cf ph2-ns">
+  <div class="mw9 center pv5 ph3-ns flex flex-column flex-row-ns">
+    <div class="relative overflow-hidden w-33-ns order-1-ns minh400">
+      <div class="credits absolute ph2-ns">
         {{ range .roles }}
         <div class="pa2">
           <div class="white center ph6">
@@ -20,11 +19,21 @@
         {{ end }}
       </div>
     </div>
-
-    <div class="flex flex-wrap ml-33">
+    <div class="flex flex-wrap ml-33 w-33-ns justify-center order-0-ns">
       {{ range .bts }}
-      <div class="w-100 w-33-ns ph1-ns">
-        <img src="{{ . }}" alt="" />
+      <div class="w-100 w-33-ns pa2 ma2 tc bg-white polaroid mdshadow">
+        <img class="w-100" src="{{ .image }}" alt="" />
+        <h3 class="f3">{{ .caption }}</h3>
+      </div>
+
+      {{ end }}
+    </div>
+
+    <div class="flex flex-wrap ml-33 w-33-ns justify-center order-2-ns">
+      {{ range .bts }}
+      <div class="w-100 w-33-ns pa2 ma2 tc bg-white polaroid mdshadow">
+        <img class="w-100" src="{{ .image }}" alt="" />
+        <h3 class="f3">{{ .caption }}</h3>
       </div>
 
       {{ end }}

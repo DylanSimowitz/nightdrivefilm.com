@@ -7,7 +7,6 @@
   min-width: 40%;
 }
 .credits {
-  min-width: 40%;
   top: 0;
   animation: 40s credits linear infinite;
 }
@@ -21,20 +20,24 @@
   }
 }
 
+.mdshadow {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
 .mh400 {
   max-height: 400px;
+}
+
+.minh400 {
+  min-height: 400px;
 }
 
 .mw360 {
   min-width: 360px;
 }
 
-.f-subheadline {
-  font-size: 4rem;
-}
-
 .section-header {
-  padding: 20% 0;
+  padding: 17.5% 0;
   max-height: 600px;
 }
 
@@ -46,4 +49,12 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.pointer-events-auto {
+  pointer-events: auto;
 }

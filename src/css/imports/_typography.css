@@ -9,7 +9,6 @@ html {
   background-color: var(--black);
 }
 
-
 body {
   font-family: var(--font-family);
   font-size: var(--spacing-medium);
@@ -18,7 +17,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--off-white);
- }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Impact", var(--font-family);
+}
+
+.polaroid * {
+  font-family: 'Permanent Marker', cursive !important;
+}
 
 p {
   margin-bottom: var(--spacing-medium);
@@ -34,7 +46,7 @@ em {
 }
 
 sup {
-  font-size: .6rem;
+  font-size: 0.6rem;
   font-weight: 700;
   vertical-align: super;
 }
@@ -74,7 +86,7 @@ sup {
 }
 
 @media (--breakpoint-not-small) {
-  .measure-ns  {
+  .measure-ns {
     max-width: 30em;
   }
   .measure-wide-ns {

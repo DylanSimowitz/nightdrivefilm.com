@@ -1,9 +1,9 @@
 <nav
-  class="overflow-x-scroll overflow-x-visible-ns flex justify-end items-start center absolute absolute-fill"
+  class="overflow-x-scroll overflow-x-visible-ns flex justify-end items-start center fixed absolute-ns absolute-fill z-max pointer-events-none"
 >
   <!-- Primary Nav -->
   <ul
-    class="flex-column absolute static-ns absolute-fill flex-row-ns b grey-2 bg-black bg-none-ns z-4 items-center pt6 pt0-ns flex dn-important flex-ns-important"
+    class="flex-column absolute static-ns absolute-fill flex-row-ns b grey-2 bg-black bg-none-ns z-4 items-center pt6 pt0-ns flex dn-important flex-ns-important pointer-events-auto"
     id="menu"
   >
     <li><a href="#trailer" class="pa3 pb4 no-underline db">Trailer</a></li>
@@ -12,7 +12,11 @@
     <li><a href="#crew" class="pa3 pb4 no-underline db">Crew</a></li>
     <li><a href="#credits" class="pa3 pb4 no-underline db">Credits</a></li>
   </ul>
-  <div class="dn-ns z-5 pa2" id="menu-button">
-    {{ partial "icon" (dict "svg" "icons-menu") }}
+  <div class="dn-ns z-5 pa2 pointer-events-auto" id="menu-button">
+    <div class="link bg-primary white db relative br-100 pa2 dib pr2 raise">
+      <svg width="24px" height="24px" class="db">
+        <use xlink:href="#icons-menu"></use>
+      </svg>
+    </div>
   </div>
 </nav>
