@@ -1,7 +1,7 @@
 ---
 title: Night Drive
 subtitle: A Chris Morvant Film
-image: /img/car_hood.jpg
+image: 'https://ucarecdn.com/2f31243f-404e-42ba-bd84-60c5702f7a23/'
 blurb:
   heading: Why Kaldi?
   text: >-
